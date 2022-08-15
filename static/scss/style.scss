@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+
+}
+img {
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+}
+h1 {
+    display: none;
+}
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background:linear-gradient(to right, #292cc2 0%, #dd1313 100%);
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    height: 100vh;
+    transition: background 1.5s ease-in-out;
+    #cards-main {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        // background: rgb(38.67826087, 33.15652174, 52.64347826);
+        // transition: background 1.5s ease-in-out;
+
+        // width: 100%;
+        // height: 100%;
+
+        .card {
+
+            width: 200px;
+            height: 270px;
+            
+            border: 0;
+            // border: 1px solid black;
+            margin: 5px;
+            // border-radius: 10px;
+            transition: transform 0.2s ease-in-out;
+        
+        &:hover{
+            // transform:translateX(-20px);
+            // transform:translateY(-20px);
+            transform: scale(1.07);
+            box-shadow: 0px 3px 3px 2px rgba(207, 204, 204, 0.5);
+        };
+    };
+    
+    // #card-1 {
+    //     background-color: rgb(38.67826087, 33.15652174, 52.64347826);
+    //     // 38.67826087 33.15652174 52.64347826
+    // };
+    // #card-2 {
+    //     background-color: rgb(95, 238, 214);
+    // };
+    // #card-3 {
+    //     background-color: rgb(173, 214, 26);
+    // }
+}
+}

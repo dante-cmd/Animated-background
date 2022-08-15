@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <link rel="stylesheet" href="../static/css/style.css"> -->
+    <link rel="stylesheet" href="{{url_for('static1', path = 'css/style.css')}}">
+    
+    <title>Animated Background</title>
+</head>
+<body>
+    <main id="main">
+        <div id="cards-main">
+            <div class="card" id = "card-1">
+                <div class="card-1-content">
+                    <h1>Card 1</h1>
+                    <img class="img-1 src" src="https://occ-0-812-2430.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABesQOtx9iMSnGj29I9NlZHY2x5QoqNOuFYBLzc9L87b229NYJUIgOz6VK2JUKyQRCMoK5mV8jWx4bOZKAnSQsV61CnosS-b8hasPd1Up6gr4qmiIPcpVbV9k.jpg?r=575" alt="">
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p> -->
+                </div>
+            </div>
+            <div class="card" id = "card-2">
+                <div class="card-1-content">
+                    <h1>Card 2</h1>
+                    <img class="img-2 src" src="https://sm.ign.com/t/ign_latam/movie/t/terminator/terminator-genisys_jq62.300.jpg" alt="" srcset="">
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p> -->
+                </div>
+            </div>
+            <div class="card" id = "card-3">
+                <div class="card-1-content">
+                    <h1>Card 3</h1>
+                    <img class="img-3 src" src="https://sm.ign.com/t/ign_es/movie/j/jumanji-si/jumanji-siguiente-nivel_dn63.300.jpg" alt="" srcset="">
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p> -->
+                </div>
+            </div>
+
+        </div>
+        
+        <script src="{{url_for('static1', path = 'script/script.js')}}"></script>
+    </main>
+</body>
+</html>
